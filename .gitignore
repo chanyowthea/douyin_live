@@ -1,0 +1,6 @@
+Library
+.vs
+Temp
+Debug
+__pycache__
+*.meta
