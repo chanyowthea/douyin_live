@@ -4,3 +4,4 @@ Temp
 Debug
 __pycache__
 *.meta
+/out

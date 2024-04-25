@@ -9,6 +9,9 @@ py 代码直接放在 StreamingAssets 目录下了（为了 pc 打包能找到�
 
 并把 Launcher 上的 PythonManager disable
 
+【重要】
+必须把本地代理关掉，否则可能爬不到
+
 ## 原理
 Python 爬虫获取弹幕聊天、送礼、点赞、关注，然后转发到 Unity
 相当于 Unity 获取弹幕聊天、送礼、点赞、关注

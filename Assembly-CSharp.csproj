@@ -47,8 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\HTTPServer.cs" />
+     <Compile Include="Assets\Scripts\LiveManager.cs" />
      <Compile Include="Assets\Scripts\PythonManager.cs" />
-     <Compile Include="Assets\Scripts\Util.cs" />
      <None Include="Assets\StreamingAssets\douyin_live\requirements.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity5.6.3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
