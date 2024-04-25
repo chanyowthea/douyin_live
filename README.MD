@@ -1,12 +1,15 @@
 # 抖音直播获取弹幕聊天、送礼、点赞、关注等 Python 实现，并转发到 Unity 游戏引擎
 【最新写法】
-    直接开 Unity 运行即可，无需安装任何依赖
-    py 代码直接放在 StreamingAssets 目录下了（为了 pc 打包能找到路径）
+直接开 Unity 运行即可，无需安装任何依赖
 
-    如果想要把 py 服务器和 Unity 分开的话，直接把代码挪出来，使用 start.bat 运行
-    并把 Launcher 上的 PythonManager disable
+py 代码直接放在 StreamingAssets 目录下了（为了 pc 打包能找到路径）
 
+注意：
+如果想要把 py 服务器和 Unity 分开的话，直接把代码挪出来，使用 start.bat 运行
 
+并把 Launcher 上的 PythonManager disable
+
+## 原理
 Python 爬虫获取弹幕聊天、送礼、点赞、关注，然后转发到 Unity
 相当于 Unity 获取弹幕聊天、送礼、点赞、关注
 注意：也可以转发到其他平台，只要在那个平台启动 http 服务器，然后处理一下 post（参考本项目 Unity 写法）
